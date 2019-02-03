@@ -1016,9 +1016,9 @@
 
 /* Banner */
 
-	body.is-touch #banner {
+	/* body.is-touch #banner {
 		background-attachment: fixed;
-	}
+	} */
 
 	#banner {
 		width: 100vw;
@@ -1086,8 +1086,8 @@
 				}
 		}
 
-/* Banner */
-	#quote {
+/* Contact */
+	#contact {
 		width: 100vw;
 		height: 30em;
 		background-image: url("../../images/piso_tres_quote.jpg");
@@ -1104,7 +1104,7 @@
 		display: flex;
 	}
 
-		#quote p {
+		#contact p {
 			color: #FFFFFF;
 			font-size: 20pt;
 			margin: auto;
@@ -1444,9 +1444,9 @@
 			opacity: 1;
 		}
 
-/* Gallery */
+/* work */
 
-	#gallery {
+	#work {
 		padding-top: 3em;
 		padding-right: 3em;
 		padding-left: 3em;
@@ -1454,7 +1454,7 @@
 	}
 
 	@media screen and (max-width: 480px) {
-		#gallery {
+		#work {
 			padding-top: 2em;
 			padding-right: 2em;
 			padding-left: 2em;
@@ -1462,7 +1462,7 @@
 		}
 	}
 
-	#gallery .inner {
+	#work .inner {
 		max-width: 100%;
 		display: -webkit-box;
 		display: -moz-box;         
