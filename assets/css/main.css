@@ -1108,12 +1108,44 @@
 
 		#contact p {
 			color: #FFFFFF;
-			font-size: 20pt;
+			font-size: 38pt;
+			line-height: 38pt;
 			margin: auto;
-			padding-left: 15%;
-			padding-right: 15%;
+			padding-left: 12%;
+			padding-right: 12%;
 			align-self: center;
 			font-weight: bold;
+		}
+		@media screen and (max-width: 1280px) {
+			
+			#contact p {
+				font-size: 30pt;
+				line-height: 30pt;
+			}
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#contact p {
+				font-size: 26pt;
+				line-height: 26pt;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#contact p {
+				font-size: 24pt;
+				line-height: 24pt;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#contact p {
+				font-size: 20pt;
+				line-height: 20pt;
+			}
 		}
 
 /* Main */
