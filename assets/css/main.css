@@ -1016,9 +1016,9 @@
 
 /* Banner */
 
-	/* body.is-touch #banner {
-		background-attachment: fixed;
-	} */
+	body.is-touch #banner {
+		background-attachment: scroll;
+	}
 
 	#banner {
 		width: 100vw;
