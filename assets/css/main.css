@@ -1024,24 +1024,16 @@
 		width: 100vw;
 		height: 30em;
 		background-image: url("../../images/piso_tres_banner.jpg");
-		
-		/* background-position: center center;
-		background-attachment: fixed;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-size: cover; */
-
 		background-position: center center;
-		background-repeat: no-repeat;
 		background-attachment: fixed;
+	}
 
-		-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: cover; 
-		-moz-background-size: cover; 
-		-o-background-size: cover; 
-		background-size: cover; 
+	@supports (-webkit-overflow-scrolling: touch) {
+		#banner {
+			background-attachment: scroll;
+		}
 	}
 
 	@media screen and (max-width: 1280px) {
