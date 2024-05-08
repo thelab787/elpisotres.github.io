@@ -1047,6 +1047,16 @@
 
 	}
 
+	#banner span {
+		color: #000000;
+		text-align: center;
+		font-weight: bold;
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		font-size: 2.4em;
+	}
+
 	@supports (-webkit-overflow-scrolling: touch) {
 		#banner {
 			background-attachment: scroll;
@@ -1058,6 +1068,10 @@
 			height: 300px;
 			line-height: 300px;
 		}
+
+		#banner span {
+			font-size: 2.0em;
+		}
 	}
 
 	@media screen and (max-width: 980px) {
@@ -1065,12 +1079,20 @@
 			height: 300px;
 			line-height: 300px;
 		}
+
+		#banner span {
+			font-size: 1.5em;
+		}
 	}
 
 	@media screen and (max-width: 736px) {
 		#banner {
 			height: 260px;
 			line-height: 260px;
+		}
+
+		#banner span {
+			font-size: 1.3em;
 		}
 	}
 
@@ -1088,16 +1110,14 @@
 			padding-right: 2em;
 		}
 
-		#banner span {
+		/* #banner span {
 			color: #000000;
-			font-size: 2.4em;
 			text-align: center;
 			font-weight: bold;
-	
 			display: inline-block;
 			vertical-align: middle;
 			line-height: normal;
-		}
+		} */
 
 		#banner p {
 			color: #000000;
@@ -1136,7 +1156,7 @@
 
 		#contact p {
 			color: #000000;
-			font-size: 34pt;
+			font-size: 2.4em;
 			line-height: 26pt;
 			margin: auto;
 			padding-left: 12%;
@@ -1152,6 +1172,7 @@
 			#contact p {
 				font-size: 30pt;
 				line-height: 22pt;
+				font-size: 2.0em;
 			}
 		}
 
@@ -1160,6 +1181,7 @@
 			#contact p {
 				font-size: 26pt;
 				line-height: 18pt;
+				font-size: 1.5em;
 			}
 		}
 
@@ -1168,6 +1190,7 @@
 			#contact p {
 				font-size: 24pt;
 				line-height: 24pt;
+				font-size: 1.3em;
 			}
 		}
 
