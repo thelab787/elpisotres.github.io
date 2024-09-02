@@ -1366,6 +1366,7 @@
 		display: -webkit-flex;     
 		display: flex;
 		background-size: cover;
+		background-position: center;
 	}
 
 		.topBaner img {
